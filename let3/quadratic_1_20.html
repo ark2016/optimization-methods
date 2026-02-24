@@ -1,9 +1,15 @@
-<script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>    <div id="id_0b6c0703_8344_4d52_bd05_790195169247" style="width:1400px;height:600px;"></div>
+    <div id="id_b51813bb_d652_4899_beed_3f85211bb8ac" style="width:1400px;height:600px;"></div>
     <script>
     ;(()=> {
-    function plots_jl_plotly_id_0b6c0703_8344_4d52_bd05_790195169247() {
-        
-        Plotly.newPlot('id_0b6c0703_8344_4d52_bd05_790195169247', [
+    function plots_jl_plotly_id_b51813bb_d652_4899_beed_3f85211bb8ac() {
+            requirejs.config({
+        paths: {
+            plotly: 'https://cdn.plot.ly/plotly-2.6.3.min'
+        }
+    });
+    require(['plotly'], function (Plotly) {
+
+        Plotly.newPlot('id_b51813bb_d652_4899_beed_3f85211bb8ac', [
     {
         "xaxis": "x1",
         "colorbar": {
@@ -53908,12 +53914,12 @@
     "width": 1400
 }
 );
-        
+        });
     }
     let plotlyloader = window.document.createElement("script")
     let src="https://requirejs.org/docs/release/2.3.7/minified/require.js"
-    plotlyloader.addEventListener("load", plots_jl_plotly_id_0b6c0703_8344_4d52_bd05_790195169247);
+    plotlyloader.addEventListener("load", plots_jl_plotly_id_b51813bb_d652_4899_beed_3f85211bb8ac);
     plotlyloader.src = src
-    document.querySelector("#id_0b6c0703_8344_4d52_bd05_790195169247").appendChild(plotlyloader)
+    document.querySelector("#id_b51813bb_d652_4899_beed_3f85211bb8ac").appendChild(plotlyloader)
     })()
     </script>
